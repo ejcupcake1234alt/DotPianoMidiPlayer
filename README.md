@@ -1,5 +1,7 @@
+# This script has been preconfigured to play "She's a rainbow" by the rolling stones.
 # This script is NOT maintained!
 # As of Feb 2024 it still works, however bugs will NOT be fixed.
+## The MIDI file used was downloaded from [FreeMidi.org](https://freemidi.org/download3-26171-shes-a-rainbow-rolling-stones)
 
 
 # Dot Piano Midi Player
