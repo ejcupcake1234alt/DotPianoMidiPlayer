@@ -2,7 +2,7 @@
 # This script is NOT maintained!
 # As of Feb 2024 it still works, however bugs will NOT be fixed.
 ## The MIDI file used was downloaded from [FreeMidi.org](https://freemidi.org/download3-26171-shes-a-rainbow-rolling-stones)
-
+#### Dear GitHub, If you want me to take down this project because of possible copyright infringment from the MIDI file, I will.
 
 # Dot Piano Midi Player
 A script that allows you to play custom .mid files through https://dotpiano.com
