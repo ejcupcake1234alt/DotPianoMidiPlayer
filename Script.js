@@ -1,15 +1,16 @@
 //CONFIG
 
 //the url of the midi file, the site that hosts this file MUST have cors enabled!
-const fileurl = 'https://togi.cloud.ngrok.io/data/uploads/users/?img=Dotpiano/media/example.mid'
+const fileurl = 'https://zippyshare.s3.us-east-1.wasabisys.com/anonymous/TMve7l21laAo9JH_1717373864.mid?response-content-disposition=attachment%3B%20filename%3D%22ShesARainbow.mid%22&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ID0RSWK5QGGMK9BSBT0Y%2F20240603%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240603T001808Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=6e11181b5a2c2e5a70def4213815943fdf3c2fe670c0f69e563092b3f95e3a08'
 
 //control midi file tempo (for most songs you want 60, however the ussual change is somtimes required) 
 //!!THIS IS NOT BPM, LOWER IS SLOWER, HIGHER IS FASTER!!
-const tempo = 60
+const tempo = 105
 
 //the track of the midi file to play. only one track can be played currently.
+//Track 3 is the piano track, 1 is the melody.
 
-const midiTrack = 1
+const midiTrack = 3
 
 //END OF CONFIG
 !function(t) {
